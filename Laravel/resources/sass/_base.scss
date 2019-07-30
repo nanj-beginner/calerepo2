@@ -1,0 +1,254 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ body *{
+  font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+p.main-description{
+  margin-top: -5px;
+  float: left;
+}
+
+.nav-right{
+  float: right;
+  padding-right:100px;
+  font-size: 15px;
+}
+.nav-right a{
+  text-decoration:none;
+  color:white;
+  padding-top: 20px;
+  margin-right:20px;
+}
+
+.nav-right a:hover{
+  text-decoration:none;
+  color:white;
+  border-top: 3px solid white;
+}
+.nav {
+  width:100%;
+  font-size: 13px;
+  margin-top: 0px;
+  margin-left: 20px;
+  padding-top: 20px;
+  color: white;
+}
+
+.header{
+  height: 60px;
+  width: 100%;
+  background-color: #3367d6;
+}
+
+.left{
+  background-color: rgba(68, 68, 68, 0.06);
+}
+
+.left-item{
+  padding-left: 10px
+}
+
+.form{
+  margin-top: 30px;
+}
+
+.right{
+  float:right;
+}
+.required:after{
+  content:"*";
+  color:red;
+}
+
+.auth{
+  padding: 10px;
+  margin: 15px
+}
+
+.blue{
+  background-color: #3367d6
+}
+.dark-blue{
+  background-color: #1D3B7A
+}
+.white {
+  color: white;
+}
+.calendar-header{
+  padding-top:3px;
+  margin-top: 10px;
+  margin-left: 37px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  border-left: 5px solid #3367d6;
+  border-bottom: 1px solid #3367d6;
+}
+
+.btn-auth{
+  border-color: white !important;
+  background-color: #3367d6 !important;
+  padding: 15px !important;
+  border-width: medium !important;
+  transition:0.7s;
+  margin-bottom: 15px !important;
+}
+
+.btn-auth:hover{
+  border-color: white !important;
+  background-color: white !important;
+  color: #3367d6 !important;
+  padding: 15px !important;
+  border-width: medium !important;
+}
+.report-image{
+  padding:15px
+}
+.main{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom:50px;
+}
+.sub-auth{
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+.second-section{
+  padding-top:60px;
+  padding-bottom:40px;
+}
+
+/**
+ * footer
+ */
+.footer{
+  padding-top:60px;
+  padding-bottom:60px;
+  color:white;
+}
+.footer-col{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.footer-p{
+  color:#CED3DE;
+  margin-left: 10px;
+  margin-bottom:30px;
+}
+.footer-p a{
+  color:#CED3DE;
+  padding-left:10px;
+  margin-bottom:5px;
+}
+
+.footer-p a:hover{
+  color:white;
+  text-decoration:none;
+}
+.footer-h{
+  padding-bottom: 20px;
+}
+.cright{
+  color:#B3B4B5;
+}
+.feature{
+  padding-left:20px;
+  padding-right:20px;
+}
+.targetLabel{
+  padding-top:5px;
+}
+ul.categories{
+  list-style-type: none
+}
+li.categoryList{
+}
+.clickable{
+  cursor: pointer;
+  margin-left: 10px;
+}
+.sub-title{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+.short-explain{
+  color:rgb(153, 153, 153);
+  font-size: 13px;
+}
+.mainbox{
+  margin-left:40px;
+}
+.question{
+  font-size: 17px;
+}
+.gray {
+  color:rgb(153, 153, 153);
+}
+.answer{
+  padding-bottom:10px;
+}
+.manual-main{
+  padding-top:20px;
+}
+.manual-image{
+  color:rgb(153, 153, 153);
+
+}
+.manual-step{
+  width:100%;
+  margin:4px;
+  border: 1px solid rgb(153, 153, 153);
+}
+h4.step{
+  padding-top:20px;
+}
+.about-box{
+  padding-bottom:10px;
+}
+.adv-div{
+  background-color: white;
+  padding:20px;
+  text-align: center;
+}
+.adv-img img{
+  padding-bottom: 10px;
+}
+
+.caution{
+  padding: 20px;
+  background: #ffa800;
+  margin: 30px;
+  padding: 40px;
+}
+.notice{
+  padding: 20px;
+  background: #ffffff4a;
+  margin: 30px;
+  padding: 40px;
+}
+
+.notice a{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 0px) and (max-width: 670px) {
+  .adv-div{
+    display: none;
+  }
+}
